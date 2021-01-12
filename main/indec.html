@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <style>
+      .color{
+        background-color: rgb(252, 236, 239);
+      }
+      .img>img{
+        width: 15%
+      }
+    </style>
+    <title>Panda</title>
+  </head>
+  <body>
+    <header class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light   sticky-top">
+        <div class="container-fluid">
+          <img src="images/logo.png" alt="" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#backpacks">Backpacks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "
+                  href="#suscribe"
+                 
+                  >Suscribe</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="mt-5">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="p-5 color row d-flex justify-content-evenly align-items-center rounded-1">
+                <div class="col-md-7 ">
+                  <h1>Cool Dude Headphone</h1>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa quasi molestias numquam veniam quibusdam quam quae quo distinctio quod error?
+                    <h1 class="text-danger">$420</h1>
+                    <Button type="button" class="btn btn-outline-danger">Buy Now</Button>
+                  </p>
+                </div>
+                <div class="col-md-5">
+                  <img
+                    src="images/banner-images/headphone.png"
+                    class="d-block w-100"
+                    alt="img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class=" p-5 color row d-flex justify-content-evenly align-items-center rounded-1">
+                <div class="col-md-7">
+                  <h1>Mega LCD TV For Sports</h1>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa quasi molestias numquam veniam quibusdam quam quae quo distinctio quod error?
+                    <h1 class="text-danger">$420</h1>
+                    <Button type="button" class="btn btn-outline-danger">Buy Now</Button>
+                </div>
+                <div class="col-md-5">
+                  <img
+                    src="images/banner-images/tv.png"
+                    class="d-block w-100"
+                    alt="img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="p-5 color row d-flex justify-content-evenly align-items-center rounded-1">
+                <div class="col-md-7">
+                  <h1>X-Box for your living room</h1>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa quasi molestias numquam veniam quibusdam quam quae quo distinctio quod error?
+                    <h1 class="text-danger">$420</h1>
+                    <Button type="button" class="btn btn-outline-danger">Buy Now</Button>
+                </div>
+                <div class="col-md-5">
+                  <img
+                    src="images/banner-images/xbox.png"
+                    class="d-block w-100"
+                    alt="img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main >
+      <section class="container px-3 mt-5 img">
+        <div class="row gx-5  ">
+          <div class="col ">
+            <div
+              class="p-3 rounded bg-warning d-flex align-items-center justify-content-around"
+            >
+              <h1>Watch</h1>
+              <img src="images/categories/watch.png" alt="" />
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="p-3 rounded bg-success d-flex align-items-center justify-content-around"
+            >
+              <h1>Bags</h1>
+              <img src="images/categories/bag.png" alt="" />
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="p-3 rounded bg-primary d-flex align-items-center justify-content-around"
+            >
+              <h1>Shoes</h1>
+              <img src="images/categories/shoes.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- shoess ............................ -->
+      <section id="shoes">
+        <div class="container mt-5">
+          <h1>Shoes</h1>
+          <div class="mt-5 row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card shadow p-3 mb-5 bg-white rounded m-3">
+                <img
+                  class="card-img-top"
+                  src="images/shoes/shoe-1.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Supply 350</h5>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional.
+                  </p>
+                  <h5 class="card-title">$120</h5>
+                  <a href="#" class="btn btn-primary">Buy Now >></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow p-3 mb-5 bg-white rounded m-3">
+                <img
+                  class="card-img-top"
+                  src="images/shoes/shoe-2.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Supply 350</h5>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional.
+                  </p>
+                  <h5 class="card-title">$120</h5>
+                  <a href="#" class="btn btn-danger">Buy Now >></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow p-3 mb-5 bg-white rounded m-3">
+                <img
+                  class="card-img-top"
+                  src="images/shoes/shoe-1.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Supply 350</h5>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional.
+                  </p>
+                  <h5 class="card-title">$120</h5>
+                  <a href="#" class="btn btn-warning">Buy Now >></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- back packs -->
+      <section id="backpacks">
+        <div class="container mt-5">
+          <h1>Backpacks</h1>
+          <div class="mt-5 row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card shadow p-3 mb-5 bg-white rounded m-3">
+                <img
+                  class="card-img-top"
+                  src="images/bags/bag-3.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Supply 350</h5>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional.
+                  </p>
+                  <h5 class="card-title">$120</h5>
+                  <a href="#" class="btn btn-primary">Buy Now >></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow p-3 mb-5 bg-white rounded m-3">
+                <img
+                  class="card-img-top"
+                  src="images/bags/bag-2.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Supply 350</h5>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional.
+                  </p>
+                  <h5 class="card-title">$120</h5>
+                  <a href="#" class="btn btn-danger">Buy Now >></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow p-3 mb-5 bg-white rounded m-3">
+                <img
+                  class="card-img-top"
+                  src="images/bags/bag-1.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Supply 350</h5>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional.
+                  </p>
+                  <h5 class="card-title">$120</h5>
+                  <a href="#" class="btn btn-warning">Buy Now >></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <section id="suscribe">
+        <div class="container d-flex justify-content-center bg-secondary mt-5 pb-5 rounded-1">
+          <div class="mt-5 align-items-start">
+            <div>
+              <h1>LET'S STAY IN TOUCH</h1>
+              <h5>Get updates on sales, specials and more</h5>
+            </div>
+            <div class="">
+              <input
+                type="email"
+                name="email"
+                placeholder="enter email@some.com"
+                id=""
+              />
+              <input type="submit" value="Submit" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-5">
+      <p class="text-center fst-italic fs-6">©2021. Panda Commerce. All rights reserved. Sofia, Bulgaria.Designed by @tarik khan</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
